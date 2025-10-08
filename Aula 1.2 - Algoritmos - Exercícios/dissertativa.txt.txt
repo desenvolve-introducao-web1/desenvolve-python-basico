@@ -1,0 +1,7 @@
+Solução dissertativa
+
+1- Leia e armazene o valor n que se deseja calcular a multiplicação; #entrada n
+2- subtraia 1 de n e armazene o resultado como o primeiro digito; # d1 = n-1
+3- subtraia n de 10 e armazene o resultado como o segundo digito; # d2 = 10-n
+4- para compor o resultado final, multiplique o resultado do primeiro digito por 10 e some com o resultado do segundo digito, Armazene o resultado; # r= d1x10 + d2
+5- imprima o resultado final na tela e finalize o programa; # saída r
