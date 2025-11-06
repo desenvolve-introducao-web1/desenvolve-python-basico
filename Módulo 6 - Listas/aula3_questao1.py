@@ -1,0 +1,12 @@
+# aula3_questao1.py
+
+# Solicita números do usuário
+numeros = input("Digite ao menos 4 números inteiros separados por espaço: ").split()
+numeros = [int(n) for n in numeros]
+
+print("Lista original:", numeros)
+print("3 primeiros elementos:", numeros[:3])
+print("2 últimos elementos:", numeros[-2:])
+print("Lista invertida:", numeros[::-1])
+print("Elementos de índice par:", numeros[::2])
+print("Elementos de índice ímpar:", numeros[1::2])
